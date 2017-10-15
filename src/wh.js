@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   _d = new Data();
   draw = new Draw();
   _n = new Navigation();
-  _d.loadHappy("data/data.csv", _n.setChart);
+  _d.loadHappy("https://CJKraenzle.github.io/data/data.csv", _n.setChart);
 
   margin.width = window.innerWidth - 40;   // svg#chart1 widith
   margin.height = window.innerHeight - 60; // svg#chart1 height
