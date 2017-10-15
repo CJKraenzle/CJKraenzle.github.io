@@ -1,0 +1,43 @@
+html, body {
+  margin: 0px;
+  background-color: rgb(48, 48, 54);
+}
+div#appHeader {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  right: 20px;
+  height: 40px;
+  
+  font-family: "Marcellus SC";
+  font-size: 32px;
+  color: #eeeee5;
+}
+div#appContent {
+  box-sizing: border-box;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+
+  background-color: #ffffff;
+
+}
+.labelW {
+  font-family: "Quattrocento Sans";
+  font-size: 2vmax;
+  font-weight: bold;
+  color: rgb(48, 48, 54);
+}
+.labelH {
+  font-family: "Quattrocento Sans";
+  font-size: 2vmax;
+  font-weight: bold;
+  color: rgb(48, 48, 54);  
+}
+.tick {
+  font-family: "Quattrocento Sans";
+  font-size: 1vw;
+}
